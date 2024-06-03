@@ -1,0 +1,84 @@
+body {
+  font-family: "Kosugi Maru", sans-serif;
+  background: #373B44;  
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44); 
+  background: linear-gradient(to left, #4286f4, #373B44); 
+  
+  
+}
+
+.kosugi-maru-regular {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+.calculadora {
+  width: 350px;
+  margin: 0 auto;
+  
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#pantalla {
+  font-family: "Kosugi Maru", sans-serif;
+  width: 90%;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, .4);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: #1f1e1e;
+}
+
+input[type="button"] {
+  font-family: "Kosugi Maru", sans-serif;
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, .4);
+  color: #fff;  
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+input[type="button"]:hover {
+  background-color: rgba(0, 0, 0, 0.589);
+    transform: translateY(2px);
+}
+
+.btn:active {
+  background-color: #999;
+  transform: translateY(4px);
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}

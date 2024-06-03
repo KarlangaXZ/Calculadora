@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icon/favicon-16x16.png" type="image/x-icon">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CALCULADORA</h1>
+    <h2>Por KarlangaXZ</h2>
+    <div class="calculadora">
+        <input type="text" id="pantalla" readonly>
+        <br>
+        <input type="button" value="1" onclick="agregar('1')">
+        <input type="button" value="2" onclick="agregar('2')">
+        <input type="button" value="3" onclick="agregar('3')">
+        <input type="button" value="+" onclick="agregar('+')">
+        <br>
+        <input type="button" value="4" onclick="agregar('4')">
+        <input type="button" value="5" onclick="agregar('5')">
+        <input type="button" value="6" onclick="agregar('6')">
+        <input type="button" value="-" onclick="agregar('-')">
+        <br>
+        <input type="button" value="7" onclick="agregar('7')">
+        <input type="button" value="8" onclick="agregar('8')">
+        <input type="button" value="9" onclick="agregar('9')">
+        <input type="button" value="*" onclick="agregar('*')">
+        <br>
+        <input type="button" value="0" onclick="agregar('0')">
+        <input type="button" value="." onclick="agregar('.')">
+        <input type="button" value="/" onclick="agregar('/')">
+        <input type="button" value="=" onclick="calcular()">
+        <br>
+        <input type="button" value="C" onclick="borrar()">
+    </div>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/ikarlangaxz" target="_blank"><img src="./icon/icons8-instagram-30.png" alt="Instagram"></a>
+            <a href="https://github.com/KarlangaXZ" target="_blank"><img src="./icon/icons8-github-30.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/carlosjlinares/" target="_blank"><img src="./icon/icons8-linkedin-30.png" alt="LinkedIn"></a>
+        </div>
+        <p>©2024 KarlangaXZ. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
