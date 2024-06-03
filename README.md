@@ -14,7 +14,7 @@ Esta es una calculadora simple desarrollada con HTML, CSS y JavaScript. Permite 
 
 ## Demo
 
-![Calculadora](demo-image-url)
+![Calculadora](muestra.png)
 
 ## Estructura del Proyecto
 
